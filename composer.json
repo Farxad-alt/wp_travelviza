@@ -1,0 +1,14 @@
+{
+    "require": {
+        "htmlburger/carbon-fields": "^3.6",
+        "htmlburger/carbon-fields-yoast": "^1.0",
+        "htmlburger/carbon-fields-docs": "^2.2",
+        "htmlburger/carbon-fields-plugin": "^3.6",
+        "yunusga/carbon-field-map-yandex": "^1.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}

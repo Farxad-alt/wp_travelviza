@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'icons';
+  src: url('../fonts/icons.eot?xhfknu');
+  src: url('../fonts/icons.eot?xhfknu#iefix') format('embedded-opentype'),
+    url('../fonts/icons.ttf?xhfknu') format('truetype'),
+    url('../fonts/icons.woff?xhfknu') format('woff'),
+    url('../fonts/icons.svg?xhfknu#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::after,
+[class*=" icon-"]::after {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow:after {
+  content: "\e900";
+}
+
+.icon-clock:after {
+  content: "\e901";
+}
+
+.icon-form_avatar:after {
+  content: "\e902";
+}
+
+.icon-form_phone:after {
+  content: "\e903";
+}
+
+.icon-location:after {
+  content: "\e904";
+}
+
+.icon-phone-call-1:after {
+  content: "\e905";
+}
+
+.icon-shield:after {
+  content: "\e906";
+}
+
+.icon-support:after {
+  content: "\e907";
+}
+
+.icon-wall-clock-1:after {
+  content: "\e909";
+}
+
+.icon-arrow-up:after {
+  content: "\ea3a";
+}
